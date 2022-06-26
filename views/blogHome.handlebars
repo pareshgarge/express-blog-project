@@ -1,0 +1,12 @@
+<div class="container">
+{{#each blogs}}
+    <a href="http://localhost:3000/blogpost/{{this.slug}}">
+   <div class="row">
+    <p><b>{{this.title}}</b></p>
+    </div>
+    <div class="row">
+    <p>{{this.content}}</p>
+   </div>
+   </a>
+{{/each}}
+</div>
